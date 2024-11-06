@@ -1,0 +1,126 @@
+{
+  "range": {
+    "from": "2024-11-02T21:00:00.082Z",
+    "to": "2024-11-03T21:00:00.082Z"
+  },
+  "metrics": {
+  "cost": [50, 100, 304, 30, 70, 200, 15, 84, 160, 240, 25, 90, 70, 80, 100],
+  "sales_revenue": [150, 40, 10, 300, 45, 87, 110, 400, 80, 500, 400, 250, 150, 100, 130]
+  },
+  "grouping": {
+    "campaing_group": [
+      {
+        "group": "RDS",
+        "sales_revenue": 12000,
+        "date": "2024-11-06T12:00:00.082Z"
+      },
+      {
+        "group": "ZM_TEAM",
+        "sales_revenue": 6500,
+        "date": "2024-11-06T12:00:00.082Z"
+      },
+      {
+        "group": "LEO",
+        "sales_revenue": 7000,
+        "date": "2024-11-06T12:00:00.082Z"
+      },
+      {
+        "group": "COSTYAN",
+        "sales_revenue": 15000,
+        "date": "2024-11-06T12:00:00.082Z"
+      },
+      {
+        "group": "DENIS",
+        "sales_revenue": 9000,
+        "date": "2024-11-06T12:00:00.082Z"
+      },
+      {
+        "group": "ARTYOM",
+        "sales_revenue": 10000,
+        "date": "2024-11-06T12:00:00.082Z"
+      }
+    ]
+  },
+  "agents": {
+    "agent_cost": [
+      {
+        "agent_name": "FB RENT",
+        "agent_cost": 3000
+      },
+      {
+        "agent_name": "CROSGIF",
+        "agent_cost": 1600
+      },
+      {
+        "agent_name": "SKAKAPPS",
+        "agent_cost": 2700
+      },
+      {
+        "agent_name": "KEITARO",
+        "agent_cost": 1500
+      },
+      {
+        "agent_name": "MONIBET",
+        "agent_cost": 2300
+      },
+      {
+        "agent_name": "LUMUMBA",
+        "agent_cost": 2000
+      }
+    ]
+  },
+  "spend": {
+    "spend_agent_cost": [
+      {
+        "group": "RDS",
+        "spend_agent": "FB RENT",
+        "spend_cost": 3500,
+        "date": "2024-11-06T09:00:00.082Z"
+      },
+      {
+        "group": "COSTYAN",
+        "spend_agent": "KEITARO",
+        "spend_cost": 2500,
+        "date": "2024-11-06T09:00:00.082Z"
+      },
+      {
+        "group": "DENIS",
+        "spend_agent": "SKAKAPPS",
+        "spend_cost": 2000,
+        "date": "2024-11-06T09:00:00.082Z"
+      },
+      {
+        "group": "ARTYOM",
+        "spend_agent": "CROSSFIG",
+        "spend_cost": 1800,
+        "date": "2024-11-06T09:00:00.082Z"
+      },
+      {
+        "group": "LEO",
+        "spend_agent": "LUMUMBA",
+        "spend_cost": 4000,
+        "date": "2024-11-06T09:00:00.082Z"
+      }
+    ]
+  },
+  "awaiting_data": {
+    "whithdraws": [
+      {
+        "withdraw_name": "MOSTBET",
+        "withdraw_amount": 18000,
+        "date": "2024-11-20T12:00:00.082Z"
+      },
+      {
+        "withdraw_name": "NSQ",
+        "withdraw_amount": 20000,
+        "date": "2024-11-20T12:00:00.082Z"
+      },
+      {
+        "withdraw_name": "FB RENT",
+        "withdraw_amount": 17000,
+        "date": "2024-11-20T12:00:00.082Z"
+      }
+    ]
+  }
+
+}
