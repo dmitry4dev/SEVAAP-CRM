@@ -1,0 +1,56 @@
+/* BUYERS FORM STYLES */
+
+.buyers-form {
+  width: 90%;
+  margin: 0 auto 24px;
+}
+
+.buyers-form__label {
+  margin-bottom: 12px;
+}
+
+.buyers-form-inner {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+/* TABLE STYLES */
+
+.table-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.buyers__table {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.table__th {
+  padding: 16px 10px;
+}
+
+.table__th:nth-child(1) {
+  text-align: left;
+}
+
+.table__th:last-child {
+  text-align: right;
+}
+
+.buyers__table .table__cell {
+  padding: 18px 10px;
+}
+
+.buyers-table__cell:not(:last-child) {
+  text-align: center;
+}
+
+.buyers-table__cell:first-child {
+  text-align: left;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "google-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/index.js",
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "sheetdb-node": "^0.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

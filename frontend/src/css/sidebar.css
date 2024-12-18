@@ -1,0 +1,28 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 220px;
+  height: 100%;
+  padding: 60px 0 0 20px;
+  color: #fff;
+  background-color: rgb(145, 98, 145);
+  border-right: 2px solid #000000;
+}
+
+.sidebar__logo {
+  margin-bottom: 52px;
+}
+
+.nav-list {
+  text-transform: uppercase;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.active-link {
+  text-decoration: underline;
+}
